@@ -52,4 +52,30 @@ html {
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+.container-mac h2 {
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+  margin-top: 60px;
+}
+.container-mac p {
+  text-align: center;
+  margin: auto;
+}
+.container-mac img {
+  width: 350px;
+  height: 280px;
+}
+.container-mac .container-info {
+  display: flex;
+  gap: 80px;
+  margin: 50px 50px;
+}
+.container-mac .container-info h4 {
+  color: hsl(210, 10%, 33%);
+}
+.container-mac .container-info p {
+  width: 300px;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */

@@ -61,5 +61,39 @@
       cursor: pointer;
     }
   }
+
   
+}
+
+.container-mac {
+  h2 {
+    text-align: center;
+    color: $blackgray-color;
+    margin-top: 60px;
+  }
+
+  p {
+    text-align: center;
+    margin: auto;
+  }
+
+  img {
+    width: 350px;
+    height: 280px;
+  }
+
+  .container-info {
+    display: flex;
+    gap: 80px;
+    margin: 50px 50px;
+
+    h4 {
+      color: $blackgray-color;
+    }
+
+    p {
+      width: 300px;
+      text-align: left;
+    }
+  }
 }
