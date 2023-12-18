@@ -1,8 +1,29 @@
+ @import './colors';
+ 
+ 
  html {
   font-family: 'Bai Jamjuree', sans-serif;
   background-image: url(../images/bg-header-desktop.png);
   background-repeat: no-repeat;
  }
  
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightblue;
+  width: 780px;
+  margin: auto;
+  padding: 20px 40px;
 
+   img {
+    width: 80px;
+    height: 80px;
+    padding: 20px 20px;
+  }
+ 
+  h1 {
+    color: $blackgray-color;
+  }
+}
 
