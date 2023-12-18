@@ -8,8 +8,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: lightblue;
-  width: 780px;
+  width: 800px;
   margin: auto;
   padding: 20px 40px;
 }
@@ -20,4 +19,37 @@ html {
 }
 .container h1 {
   color: hsl(210, 10%, 33%);
+}
+.container p {
+  color: hsl(201, 11%, 66%);
+  width: 580px;
+  text-align: center;
+  margin-top: -8px;
+}
+.container .card-button {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+}
+.container .card-button .btn1 {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container .card-button .btn2 {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
