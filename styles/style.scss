@@ -98,14 +98,37 @@
 }
 
 .card-devices {
-   
   p {
     margin-bottom: 60px;
   }
 
   img {
-    width: 450px;
+    width: 500px;
     height: 300px;
-    
+    padding-left: 170px;
   }
+}
+
+.boxs-card {
+  margin-top: 55px;
+  max-width: 800px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  
+h5 {
+  color: $blackgray-color;
+  font-size: 18px;
+  text-align: left;
+  margin-top: -110px;
+}
+
+p {
+  width: 300px;
+  text-align: left;
+  margin-left: -200px;
+}
+
+  
 }
