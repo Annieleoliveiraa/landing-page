@@ -61,7 +61,6 @@
       cursor: pointer;
     }
   }
-
   
 }
 
@@ -95,5 +94,18 @@
       width: 300px;
       text-align: left;
     }
+  }
+}
+
+.card-devices {
+   
+  p {
+    margin-bottom: 60px;
+  }
+
+  img {
+    width: 450px;
+    height: 300px;
+    
   }
 }

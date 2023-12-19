@@ -78,4 +78,12 @@ html {
 .container-mac .container-info p {
   width: 300px;
   text-align: left;
+}
+
+.card-devices p {
+  margin-bottom: 60px;
+}
+.card-devices img {
+  width: 450px;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */
