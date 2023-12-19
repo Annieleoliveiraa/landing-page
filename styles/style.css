@@ -87,24 +87,4 @@ html {
   width: 500px;
   height: 300px;
   padding-left: 170px;
-}
-
-.boxs-card {
-  margin-top: 55px;
-  max-width: 800px;
-  min-height: 300px;
-  display: flex;
-  align-items: center;
-  gap: 90px;
-}
-.boxs-card h5 {
-  color: hsl(210, 10%, 33%);
-  font-size: 18px;
-  text-align: left;
-  margin-top: -110px;
-}
-.boxs-card p {
-  width: 300px;
-  text-align: left;
-  margin-left: -200px;
 }/*# sourceMappingURL=style.css.map */
