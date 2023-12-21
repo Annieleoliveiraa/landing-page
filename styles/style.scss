@@ -144,3 +144,14 @@
    }
 }
 
+.cards-images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;  
+
+  img {
+    width: 95px;
+    height: 45px;
+  }
+}
+
