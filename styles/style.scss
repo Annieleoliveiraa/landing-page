@@ -109,3 +109,29 @@
   }
 }
 
+
+.boxers-card {
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  p {
+    margin-bottom: 40px;
+   }
+
+   .box-container {
+    width: 800px;
+    display: flex;
+    
+
+   }
+
+   h5 {
+    text-align: center;
+   }
+
+   .text1 {
+     width: 300px;
+   }
+}
+

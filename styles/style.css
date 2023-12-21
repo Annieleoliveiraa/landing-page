@@ -87,4 +87,24 @@ html {
   width: 500px;
   height: 300px;
   padding-left: 170px;
+}
+
+.boxers-card {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.boxers-card p {
+  margin-bottom: 40px;
+}
+.boxers-card .box-container {
+  width: 800px;
+  display: flex;
+}
+.boxers-card h5 {
+  text-align: center;
+}
+.boxers-card .text1 {
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */
