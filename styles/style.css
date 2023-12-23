@@ -137,17 +137,4 @@ html {
 .container-clipboard .card-button {
   display: flex;
   justify-content: center;
-}
-
-.container-footer {
-  flex-direction: column;
-  width: 950px;
-  min-height: 100px;
-}
-.container-footer img {
-  width: 50px;
-  height: 50px;
-}
-.container-footer .card-footer p {
-  width: 600px;
 }/*# sourceMappingURL=style.css.map */
