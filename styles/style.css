@@ -127,4 +127,14 @@ html {
 .cards-images img {
   width: 95px;
   height: 45px;
+}
+
+.container-clipboard h2 {
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+  margin: 45px 45px;
+}
+.container-clipboard .card-button {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
