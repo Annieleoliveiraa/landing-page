@@ -155,3 +155,17 @@
   }
 }
 
+.container-clipboard {
+   
+  h2 {
+    color: $blackgray-color;
+    text-align: center;
+    margin: 45px 45px;
+  }
+
+  .card-button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
