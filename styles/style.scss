@@ -169,3 +169,26 @@
   }
 }
 
+.container-footer {
+  
+  flex-direction: column;
+  width: 950px;
+  min-height: 100px;
+ 
+
+  img {
+    
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-footer {
+   
+  
+    p {
+      width: 600px;
+      
+    }
+  }
+}
+
