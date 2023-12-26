@@ -140,12 +140,21 @@ html {
 }
 
 .card-footer {
+  margin-top: 50px;
   display: flex;
-  background-color: hsl(210, 10%, 33%);
-  width: 950px;
-  min-height: 20vh;
+  justify-content: space-between;
+  background-color: rgb(214, 211, 211);
+  width: 900px;
+  height: 200px;
 }
 .card-footer img {
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
+  margin: 40px;
+}
+.card-footer .container-footer {
+  margin-top: 35px;
+}
+.card-footer .container-footer p {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
