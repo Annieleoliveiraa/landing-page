@@ -137,4 +137,15 @@ html {
 .container-clipboard .card-button {
   display: flex;
   justify-content: center;
+}
+
+.card-footer {
+  display: flex;
+  background-color: hsl(210, 10%, 33%);
+  width: 950px;
+  min-height: 20vh;
+}
+.card-footer img {
+  width: 80px;
+  height: 80px;
 }/*# sourceMappingURL=style.css.map */
