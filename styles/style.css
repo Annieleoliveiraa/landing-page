@@ -140,9 +140,8 @@ html {
 }
 
 .card-footer {
-  margin-top: 50px;
   display: flex;
-  background-color: rgb(214, 211, 211);
+  background-color: rgb(240, 237, 237);
   width: 98.8vw;
   height: 200px;
   position: relative;
@@ -156,8 +155,10 @@ html {
 .card-footer .box-info {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 .card-footer .box-info span {
   text-align: left;
   padding: 5px;
+  color: hsl(210, 10%, 33%);
 }/*# sourceMappingURL=style.css.map */
