@@ -144,32 +144,44 @@ html {
   align-items: flex-end;
   background-color: rgb(240, 237, 237);
   width: 98.8vw;
-  height: 200px;
+  height: 150px;
   position: relative;
   top: 50px;
 }
 .card-footer img {
-  width: 40px;
-  height: 40px;
-  margin: 40px;
+  width: 50px;
+  height: 50px;
+  padding: 40px;
 }
 .card-footer .box-info {
   display: flex;
-  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 30px;
+  margin-left: 45px;
 }
 .card-footer .box-info .box-1 {
   display: flex;
   flex-direction: column;
 }
+.card-footer .box-info .box-1 span {
+  text-align: left;
+  padding: 5px;
+  color: hsl(210, 10%, 33%);
+}
 .card-footer .box-info .box-2 {
   display: flex;
   flex-direction: column;
+}
+.card-footer .box-info .box-2 span {
+  text-align: left;
+  padding: 5px;
+  color: hsl(210, 10%, 33%);
 }
 .card-footer .box-info .box-3 {
   display: flex;
   flex-direction: column;
 }
-.card-footer .box-info span {
+.card-footer .box-info .box-3 span {
   text-align: left;
   padding: 5px;
   color: hsl(210, 10%, 33%);
