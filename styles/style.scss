@@ -1,227 +1,241 @@
  @import './colors';
- 
- 
+
+
  html {
-  font-family: 'Bai Jamjuree', sans-serif;
-  background-image: url(../images/bg-header-desktop.png);
-  background-repeat: no-repeat;
+   font-family: 'Bai Jamjuree', sans-serif;
+   background-image: url(../images/bg-header-desktop.png);
+   background-repeat: no-repeat;
  }
- 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 800px;
-  margin: auto;
-  padding: 20px 40px;
+
+ .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 800px;
+   margin: auto;
+   padding: 20px 40px;
 
    img {
-    width: 80px;
-    height: 80px;
-    padding: 20px 20px;
-  }
- 
-  h1 {
-    color: $blackgray-color;
-  }
+     width: 80px;
+     height: 80px;
+     padding: 20px 20px;
+   }
 
-  p {
-    color: $gray-color;
-    width: 580px;
-    text-align: center;
-    margin-top: -8px;
-  }
+   h1 {
+     color: $blackgray-color;
+   }
 
-  .card-button {
-    display: flex;
-    gap: 25px;
-    margin-top: 25px;
-  
-    .btn1 {
-      width: 200px;
-      height: 40px;
-      text-align: center;
-      border-radius: 20px;
-      border: none;
-      background-color: $green-color;
-      color: $whitte-color;
-      font-weight: bold;
-      cursor: pointer;
-    }
-  
-    .btn2 {
-      width: 200px;
-      height: 40px;
-      text-align: center;
-      border-radius: 20px;
-      border: none;
-      background-color: $blueviolet-color;
-      color: $whitte-color;
-      font-weight: bold;
-      cursor: pointer;
-    }
-  }
-  
-}
+   p {
+     color: $gray-color;
+     width: 580px;
+     text-align: center;
+     margin-top: -8px;
+   }
 
-.container-mac {
-  h2 {
-    text-align: center;
-    color: $blackgray-color;
-    margin-top: 60px;
-  }
+   .card-button {
+     display: flex;
+     gap: 25px;
+     margin-top: 25px;
 
-  p {
-    text-align: center;
-    margin: auto;
-  }
+     .btn1 {
+       width: 200px;
+       height: 40px;
+       text-align: center;
+       border-radius: 20px;
+       border: none;
+       background-color: $green-color;
+       color: $whitte-color;
+       font-weight: bold;
+       cursor: pointer;
+     }
 
-  img {
-    width: 350px;
-    height: 280px;
-  }
+     .btn2 {
+       width: 200px;
+       height: 40px;
+       text-align: center;
+       border-radius: 20px;
+       border: none;
+       background-color: $blueviolet-color;
+       color: $whitte-color;
+       font-weight: bold;
+       cursor: pointer;
+     }
+   }
 
-  .container-info {
-    display: flex;
-    gap: 80px;
-    margin: 50px 50px;
+ }
 
-    h4 {
-      color: $blackgray-color;
-    }
+ .container-mac {
+   h2 {
+     text-align: center;
+     color: $blackgray-color;
+     margin-top: 60px;
+   }
 
-    p {
-      width: 300px;
-      text-align: left;
-    }
-  }
-}
+   p {
+     text-align: center;
+     margin: auto;
+   }
 
-.card-devices {
-  p {
-    margin-bottom: 60px;
-  }
+   img {
+     width: 350px;
+     height: 280px;
+   }
 
-  img {
-    width: 500px;
-    height: 300px;
-    padding-left: 170px;
-  }
-}
+   .container-info {
+     display: flex;
+     gap: 80px;
+     margin: 50px 50px;
+
+     h4 {
+       color: $blackgray-color;
+     }
+
+     p {
+       width: 300px;
+       text-align: left;
+     }
+   }
+ }
+
+ .card-devices {
+   p {
+     margin-bottom: 60px;
+   }
+
+   img {
+     width: 500px;
+     height: 300px;
+     padding-left: 170px;
+   }
+ }
 
 
-.box-container {
-  display: flex;
-  gap: 50px;
-}
+ .box-container {
+   display: flex;
+   gap: 50px;
+ }
 
-.boxers-card, .boxers-card2, .boxers-card3 {
+ .boxers-card,
+ .boxers-card2,
+ .boxers-card3 {
    margin-top: 50px;
    display: flex;
    flex-direction: column;
    justify-content: center;
 
    img {
-    width: 50px;
-    height: 35px;
-    margin-right: auto;
-    margin-left: auto;
+     width: 50px;
+     height: 35px;
+     margin-right: auto;
+     margin-left: auto;
    }
 
-  p {
-    margin-bottom: 40px;
+   p {
+     margin-bottom: 40px;
    }
 
    h5 {
-    text-align: center;
-    font-size: 18px;
-    color: $blackgray-color;
+     text-align: center;
+     font-size: 18px;
+     color: $blackgray-color;
    }
 
    .text1 {
      width: 250px;
      margin-top: -10px;
    }
-}
+ }
 
-.cards-images {
-  display: flex;
-  justify-content: center;
-  gap: 30px;  
-
-  img {
-    width: 95px;
-    height: 45px;
-  }
-}
-
-.container-clipboard {
-   
-  h2 {
-    color: $blackgray-color;
-    text-align: center;
-    margin: 45px 45px;
-  }
-
-  .card-button {
-    display: flex;
-    justify-content: center;
-  }
-}
-
-.card-footer {
-  display: flex;
-  align-items: flex-end;
-  background-color: rgb(240, 237, 237);
-  width: 98.8vw;
-  height: 150px;
-  position: relative;
-  top: 50px;
-
-  img {
-    width: 50px;
-    height: 50px;
-    padding: 40px;
-  }
-
-  .box-info {
+ .cards-images {
    display: flex;
-   gap: 50px;
-   margin-bottom: 30px;
-   margin-left: 45px;
-   
+   justify-content: center;
+   gap: 30px;
 
-   .box-1 {
-    display: flex;
-    flex-direction: column;
+   img {
+     width: 95px;
+     height: 45px;
+   }
+ }
 
-    span {
-      text-align: left;
-      padding: 5px;
-      color: $blackgray-color;
+ .container-clipboard {
+
+   h2 {
+     color: $blackgray-color;
+     text-align: center;
+     margin: 45px 45px;
+   }
+
+   .card-button {
+     display: flex;
+     justify-content: center;
+   }
+ }
+
+ .card-footer {
+   display: flex;
+   align-items: flex-end;
+   background-color: rgb(240, 237, 237);
+   width: 98.8vw;
+   height: 150px;
+   position: relative;
+   top: 50px;
+
+   img {
+     width: 50px;
+     height: 50px;
+     padding: 40px;
+   }
+
+   .box-info {
+     display: flex;
+     gap: 50px;
+     margin-bottom: 30px;
+     margin-left: 45px;
+
+
+     .box-1 {
+       display: flex;
+       flex-direction: column;
+
+       span {
+         text-align: left;
+         padding: 5px;
+         color: $blackgray-color;
+       }
+     }
+
+     .box-2 {
+       display: flex;
+       flex-direction: column;
+
+       span {
+         text-align: left;
+         padding: 5px;
+         color: $blackgray-color;
+       }
+     }
+
+     .box-3 {
+       display: flex;
+       flex-direction: column;
+
+       span {
+         text-align: left;
+         padding: 5px;
+         color: $blackgray-color;
+       }
      }
    }
 
-   .box-2 {
-    display: flex;
-    flex-direction: column;
 
-    span {
-      text-align: left;
-      padding: 5px;
-      color: $blackgray-color;
-     }
+   .card-logos {
+    
+    
+    img {
+      width: 25px;
+      height: 25px;
+    }
+
    }
 
-   .box-3 {
-    display: flex;
-    flex-direction: column;
-
-    span {
-      text-align: left;
-      padding: 5px;
-      color: $blackgray-color;
-     }
-   }
-  }
-}
+ }
