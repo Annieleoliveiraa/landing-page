@@ -156,7 +156,18 @@ html {
 .card-footer .box-info {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+}
+.card-footer .box-info .box-1 {
+  display: flex;
+  flex-direction: column;
+}
+.card-footer .box-info .box-2 {
+  display: flex;
+  flex-direction: column;
+}
+.card-footer .box-info .box-3 {
+  display: flex;
+  flex-direction: column;
 }
 .card-footer .box-info span {
   text-align: left;
