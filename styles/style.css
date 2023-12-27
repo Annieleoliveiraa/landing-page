@@ -141,6 +141,7 @@ html {
 
 .card-footer {
   display: flex;
+  align-items: flex-end;
   background-color: rgb(240, 237, 237);
   width: 98.8vw;
   height: 200px;
