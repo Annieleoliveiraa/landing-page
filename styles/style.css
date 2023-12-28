@@ -182,6 +182,10 @@ html {
   text-align: left;
   padding: 5px;
   color: hsl(210, 10%, 33%);
+  cursor: pointer;
+}
+.card-footer .box-info .box-1 span:hover {
+  color: hsl(171, 66%, 44%);
 }
 .card-footer .box-info .box-2 {
   display: flex;
@@ -191,6 +195,10 @@ html {
   text-align: left;
   padding: 5px;
   color: hsl(210, 10%, 33%);
+  cursor: pointer;
+}
+.card-footer .box-info .box-2 span:hover {
+  color: hsl(171, 66%, 44%);
 }
 .card-footer .box-info .box-3 {
   display: flex;
@@ -200,12 +208,17 @@ html {
   text-align: left;
   padding: 5px;
   color: hsl(210, 10%, 33%);
+  cursor: pointer;
+}
+.card-footer .box-info .box-3 span:hover {
+  color: hsl(171, 66%, 44%);
 }
 .card-footer .card-logos {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 35px;
+  cursor: pointer;
 }
 .card-footer .card-logos img {
   width: 25px;

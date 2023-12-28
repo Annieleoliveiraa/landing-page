@@ -109,7 +109,6 @@
    }
  }
 
-
  .box-container {
    display: flex;
    gap: 50px;
@@ -162,7 +161,6 @@
  }
 
  .container-clipboard {
-
    h2 {
      color: $blackgray-color;
      text-align: center;
@@ -197,7 +195,6 @@
      margin-bottom: 30px;
      margin-left: 75px;
 
-
      .box-1 {
        display: flex;
        flex-direction: column;
@@ -206,6 +203,11 @@
          text-align: left;
          padding: 5px;
          color: $blackgray-color;
+         cursor: pointer;
+
+         &:hover {
+          color: $green-color;
+         }
        }
      }
 
@@ -217,6 +219,11 @@
          text-align: left;
          padding: 5px;
          color: $blackgray-color;
+         cursor: pointer;
+
+         &:hover {
+          color: $green-color;
+         }
        }
      }
 
@@ -228,6 +235,11 @@
          text-align: left;
          padding: 5px;
          color: $blackgray-color;
+         cursor: pointer;
+
+         &:hover {
+          color: $green-color;
+         }
        }
      }
    }
@@ -237,7 +249,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 35px;
-    
+    cursor: pointer;
    
       img {
         width: 25px;
