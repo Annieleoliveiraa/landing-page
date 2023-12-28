@@ -126,8 +126,10 @@ html {
 .boxers-card .text1,
 .boxers-card2 .text1,
 .boxers-card3 .text1 {
-  width: 280px;
+  width: 290px;
   margin-top: -10px;
+  margin-bottom: 90px;
+  text-align: center;
 }
 
 .cards-images {
@@ -136,8 +138,9 @@ html {
   gap: 30px;
 }
 .cards-images img {
-  width: 95px;
-  height: 45px;
+  width: 120px;
+  height: 40px;
+  margin-bottom: 65px;
 }
 
 .container-clipboard h2 {
