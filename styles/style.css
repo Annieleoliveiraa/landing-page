@@ -106,7 +106,7 @@ html {
 .boxers-card2 img,
 .boxers-card3 img {
   width: 50px;
-  height: 35px;
+  height: 38px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -121,11 +121,12 @@ html {
   text-align: center;
   font-size: 18px;
   color: hsl(210, 10%, 33%);
+  margin-top: 5px;
 }
 .boxers-card .text1,
 .boxers-card2 .text1,
 .boxers-card3 .text1 {
-  width: 250px;
+  width: 280px;
   margin-top: -10px;
 }
 
