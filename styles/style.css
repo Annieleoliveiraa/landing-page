@@ -166,12 +166,13 @@ html {
   width: 50px;
   height: 50px;
   padding: 40px;
+  margin-left: auto;
 }
 .card-footer .box-info {
   display: flex;
   gap: 50px;
   margin-bottom: 30px;
-  margin-left: 45px;
+  margin-left: 75px;
 }
 .card-footer .box-info .box-1 {
   display: flex;
@@ -200,7 +201,14 @@ html {
   padding: 5px;
   color: hsl(210, 10%, 33%);
 }
+.card-footer .card-logos {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
 .card-footer .card-logos img {
   width: 25px;
   height: 25px;
+  padding: 12px;
 }/*# sourceMappingURL=style.css.map */

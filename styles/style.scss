@@ -188,13 +188,14 @@
      width: 50px;
      height: 50px;
      padding: 40px;
+     margin-left: auto;
    }
 
    .box-info {
      display: flex;
      gap: 50px;
      margin-bottom: 30px;
-     margin-left: 45px;
+     margin-left: 75px;
 
 
      .box-1 {
@@ -231,15 +232,17 @@
      }
    }
 
-
    .card-logos {
-     
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
     
-    img {
-      width: 25px;
-      height: 25px;
-    }
-
+   
+      img {
+        width: 25px;
+        height: 25px;
+        padding: 12px;
+      }
    }
-
- }
+}
