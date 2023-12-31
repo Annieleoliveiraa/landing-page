@@ -250,11 +250,19 @@
     margin-right: auto;
     margin-bottom: 35px;
     cursor: pointer;
+
+    .fa-brands {
+      width: 90px;
+      height: 120px;
+    }
    
       img {
         width: 25px;
         height: 25px;
         padding: 12px;
+
+       
       }
-   }
+
+  }
 }

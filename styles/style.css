@@ -220,6 +220,10 @@ html {
   margin-bottom: 35px;
   cursor: pointer;
 }
+.card-footer .card-logos .fa-brands {
+  width: 90px;
+  height: 120px;
+}
 .card-footer .card-logos img {
   width: 25px;
   height: 25px;
