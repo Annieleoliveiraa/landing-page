@@ -260,11 +260,16 @@
     margin-right: auto;
     margin-bottom: 35px;
     cursor: pointer;
-   
-      img {
-        width: 25px;
-        height: 25px;
-        padding: 12px;
+
+    img {
+      width: 25px;
+      height: 25px;
+      padding: 12px;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        filter: hue-rotate(50deg) invert(0.5);
       }
+    }     
   }
 }
