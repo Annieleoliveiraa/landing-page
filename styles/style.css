@@ -41,6 +41,10 @@ html {
   color: white;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+.container .card-button .btn1:hover {
+  background-color: hsl(171, 91%, 63%);
 }
 .container .card-button .btn2 {
   width: 200px;
@@ -52,6 +56,10 @@ html {
   color: white;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+.container .card-button .btn2:hover {
+  background-color: hsl(234, 90%, 74%);
 }
 
 .container-mac h2 {
@@ -219,10 +227,6 @@ html {
   margin-right: auto;
   margin-bottom: 35px;
   cursor: pointer;
-}
-.card-footer .card-logos .fa-brands {
-  width: 90px;
-  height: 120px;
 }
 .card-footer .card-logos img {
   width: 25px;
