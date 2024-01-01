@@ -232,8 +232,10 @@ html {
   width: 25px;
   height: 25px;
   padding: 12px;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
+  filter: hue-rotate(0deg);
 }
 .card-footer .card-logos img:hover {
-  filter: hue-rotate(50deg) invert(0.5);
+  filter: hue-rotate(380deg) contrast(100%);
+  background-color: hsl(171, 66%, 44%);
 }/*# sourceMappingURL=style.css.map */
