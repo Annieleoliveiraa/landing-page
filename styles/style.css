@@ -233,4 +233,7 @@ html {
   height: 25px;
   padding: 12px;
   transition: 0.2s ease-in-out;
+}
+.card-footer .card-logos img .icon svg {
+  fill: red;
 }/*# sourceMappingURL=style.css.map */
