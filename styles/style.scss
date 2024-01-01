@@ -267,11 +267,6 @@
       padding: 12px;
       transition: 0.2s ease-in-out;
       filter: hue-rotate(0deg);
-
-      &:hover {
-        filter: hue-rotate(380deg) contrast(100%);
-        background-color: $green-color;
-      }
     }     
   }
 }
