@@ -234,6 +234,7 @@ html {
   padding: 12px;
   transition: 0.2s ease-in-out;
 }
-.card-footer .card-logos img .icon svg {
-  fill: red;
+.card-footer .card-logos .logo-twit:hover {
+  filter: hue-rotate(10deg);
+  background-color: hsl(171, 66%, 44%);
 }/*# sourceMappingURL=style.css.map */
