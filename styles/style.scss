@@ -266,14 +266,13 @@
       height: 25px;
       padding: 12px;
       transition: 0.2s ease-in-out;
-
-      .icon {
-        svg {
-         fill: red;
-        }
-     }
     }     
 
-   
+    .logo-twit {
+      &:hover {
+        filter: hue-rotate(10deg);
+        background-color: hsl(171, 66%, 44%);
+      }
+    }
   }
 }
