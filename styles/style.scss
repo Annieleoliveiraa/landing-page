@@ -258,21 +258,5 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 35px;
-    cursor: pointer;
-
-    img {
-      width: 25px;
-      height: 25px;
-      padding: 12px;
-      transition: 0.2s ease-in-out;
-    }     
-
-    .logo-twit {
-      &:hover {
-        filter: hue-rotate(10deg);
-        background-color: hsl(171, 66%, 44%);
-      }
-    }
   }
 }
