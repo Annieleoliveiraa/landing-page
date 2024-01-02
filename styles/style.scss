@@ -256,7 +256,25 @@
 
    .card-logos {
     display: flex;
+    align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
-  }
+    cursor: pointer;
+    gap: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    .fa-brands {
+      font-size: 28px;
+      color: $blackgray-color;
+      transition: 0.6s ease-in-out;
+      
+      &:hover {
+        filter: hue-rotate(10deg);
+        color: $green-color
+      }
+    }
+  }  
 }
+
+
