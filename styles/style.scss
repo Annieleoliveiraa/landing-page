@@ -278,3 +278,52 @@
 }
 
 
+@media only screen and (max-width: 400px) {
+ html, body {
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+ }
+
+ .container {
+   width: 80%;
+   
+
+  img {
+    width: 100px;
+    height: 98px;
+  }
+  h1 {
+    width: 250px;
+    text-align: center;
+    font-size: 24px;
+    padding: 8px 20px;
+  }
+  p {
+    text-align: center;
+    width: 340px;
+    line-height: 24px;
+  }
+ }
+
+ .card-button {
+  flex-direction: column;
+  justify-content: center;
+ }
+
+
+
+ .container-mac {
+   h2 {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 280px;
+   }
+   p {
+    line-height: 26px;
+    text-align: center;
+   }
+ }
+
+}
+
