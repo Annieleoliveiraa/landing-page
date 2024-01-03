@@ -279,14 +279,14 @@
 
 
 @media only screen and (max-width: 400px) {
- html, body {
+  body {
   background-image: url(../images/bg-header-mobile.png);
   background-repeat: no-repeat;
  }
 
  .container {
    width: 80%;
-   
+   overflow-x: hidden;
 
   img {
     width: 100px;
@@ -323,6 +323,30 @@
     line-height: 26px;
     text-align: center;
    }
+ }
+
+ .container-info {
+    flex-direction: column;
+   
+  img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 280px;
+    height: 215px;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 0;
+  }
+
+  p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 25px;
+    margin-top: 10px;
+  }
  }
 
 }

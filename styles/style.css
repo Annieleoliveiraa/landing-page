@@ -242,12 +242,13 @@ html {
 }
 
 @media only screen and (max-width: 400px) {
-  html, body {
+  body {
     background-image: url(../images/bg-header-mobile.png);
     background-repeat: no-repeat;
   }
   .container {
     width: 80%;
+    overflow-x: hidden;
   }
   .container img {
     width: 100px;
@@ -277,5 +278,25 @@ html {
   .container-mac p {
     line-height: 26px;
     text-align: center;
+  }
+  .container-info {
+    flex-direction: column;
+  }
+  .container-info img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 280px;
+    height: 215px;
+  }
+  .container-info h4 {
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 0;
+  }
+  .container-info p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 25px;
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
