@@ -282,24 +282,39 @@
   .container {
     width: 80%;
 
-    img {
-      width: 100px;
-      height: 98px;
+    .card-head {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+      img {
+        width: 100px;
+        height: 98px;
+        
+      }
+      h1 {
+        width: 250px;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+      }
+      p {
+        width: 310px;
+        line-height: 25px;
+      }
     }
-    h1 {
-      width: 250px;
-      text-align: center;
-      font-size: 24px;
-    }
-    p {
-      text-align: center;
-      width: 340px;
-      line-height: 24px;
-    }
+
+    
 
 
     .card-button {
       flex-direction: column;
+      margin-top: -10px;
+
+      .btn1, .btn2 {
+        width: 320px;
+        font-size: 16px;
+      }
     }
     
      .container-mac {
@@ -312,6 +327,7 @@
        p {
         line-height: 26px;
         text-align: center;
+        width: 310px;
       }
     }
     
@@ -345,8 +361,8 @@
       }
       
        img {
-        width: 250px;
-        height: 140px;
+        width: 300px;
+        height: 210px;
       }
     }
 
@@ -359,27 +375,90 @@
     .box-container {
       flex-direction: column;
 
-      .boxers-card, .boxers-card2, .boxers-card3 {
-        .text1 {
-          text-align: center;
-        }
-
+      .boxers-card {
+        margin-top: -1em;
         img {
           width: 45px;
           height: 35px;
         } 
+
+        h5 {
+          font-size: 24px;
+        }
+
+        .text1 {
+          text-align: center;
+        }
+      }
+      
+      .boxers-card2 {
+        margin-top: -5em;
+        img {
+          width: 45px;
+          height: 35px;
+        } 
+
+        h5 {
+          font-size: 24px;
+        }
+
+        .text1 {
+          text-align: center;
+        }
+      } 
+  
+      .boxers-card3 {
+        margin-top: -5em;
+        img {
+          width: 45px;
+          height: 35px;
+        } 
+
+        h5 {
+          font-size: 24px;
+        }
+
+        .text1 {
+          text-align: center;
+        }
       } 
     }
 
 
       .cards-images {
         flex-direction: column;
-        gap: 0;
+        
          
         img {
-          font-size: 30px;
+          margin-top: -4em;
+          width: 130px;
+          height: 55px;
       }
     }
+
+    .container-clipboard {
+        h2 {
+          width: 250px;
+        }
+      p {
+        width: 290px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+      }
+
+      .card-button {
+        display: flex;
+        align-items: center;
+
+        .btn1, .btn2 {
+          width: 320px;
+          font-size: 16px;
+        }
+      }
+    }
+
+    
   }
 }  
 

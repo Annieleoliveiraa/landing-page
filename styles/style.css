@@ -245,22 +245,33 @@ html {
   .container {
     width: 80%;
   }
-  .container img {
+  .container .card-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .card-head img {
     width: 100px;
     height: 98px;
   }
-  .container h1 {
+  .container .card-head h1 {
     width: 250px;
     text-align: center;
     font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bolder;
   }
-  .container p {
-    text-align: center;
-    width: 340px;
-    line-height: 24px;
+  .container .card-head p {
+    width: 310px;
+    line-height: 25px;
   }
   .container .card-button {
     flex-direction: column;
+    margin-top: -10px;
+  }
+  .container .card-button .btn1, .container .card-button .btn2 {
+    width: 320px;
+    font-size: 16px;
   }
   .container .container-mac h2 {
     margin-top: 100px;
@@ -271,6 +282,7 @@ html {
   .container .container-mac p {
     line-height: 26px;
     text-align: center;
+    width: 310px;
   }
   .container .container-info {
     flex-direction: column;
@@ -297,8 +309,8 @@ html {
     width: 320px;
   }
   .container .card-devices img {
-    width: 250px;
-    height: 140px;
+    width: 300px;
+    height: 210px;
   }
   .container p {
     width: 250px;
@@ -307,18 +319,68 @@ html {
   .container .box-container {
     flex-direction: column;
   }
-  .container .box-container .boxers-card .text1, .container .box-container .boxers-card2 .text1, .container .box-container .boxers-card3 .text1 {
-    text-align: center;
+  .container .box-container .boxers-card {
+    margin-top: -1em;
   }
-  .container .box-container .boxers-card img, .container .box-container .boxers-card2 img, .container .box-container .boxers-card3 img {
+  .container .box-container .boxers-card img {
     width: 45px;
     height: 35px;
   }
+  .container .box-container .boxers-card h5 {
+    font-size: 24px;
+  }
+  .container .box-container .boxers-card .text1 {
+    text-align: center;
+  }
+  .container .box-container .boxers-card2 {
+    margin-top: -5em;
+  }
+  .container .box-container .boxers-card2 img {
+    width: 45px;
+    height: 35px;
+  }
+  .container .box-container .boxers-card2 h5 {
+    font-size: 24px;
+  }
+  .container .box-container .boxers-card2 .text1 {
+    text-align: center;
+  }
+  .container .box-container .boxers-card3 {
+    margin-top: -5em;
+  }
+  .container .box-container .boxers-card3 img {
+    width: 45px;
+    height: 35px;
+  }
+  .container .box-container .boxers-card3 h5 {
+    font-size: 24px;
+  }
+  .container .box-container .boxers-card3 .text1 {
+    text-align: center;
+  }
   .container .cards-images {
     flex-direction: column;
-    gap: 0;
   }
   .container .cards-images img {
-    font-size: 30px;
+    margin-top: -4em;
+    width: 130px;
+    height: 55px;
+  }
+  .container .container-clipboard h2 {
+    width: 250px;
+  }
+  .container .container-clipboard p {
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+  }
+  .container .container-clipboard .card-button {
+    display: flex;
+    align-items: center;
+  }
+  .container .container-clipboard .card-button .btn1, .container .container-clipboard .card-button .btn2 {
+    width: 320px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
