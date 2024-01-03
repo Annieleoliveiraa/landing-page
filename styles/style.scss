@@ -279,75 +279,110 @@
 
 
 @media only screen and (max-width: 400px) {
-  body {
-  background-image: url(../images/bg-header-mobile.png);
-  background-repeat: no-repeat;
- }
+  .container {
+    width: 80%;
 
- .container {
-   width: 80%;
-   overflow-x: hidden;
+    img {
+      width: 100px;
+      height: 98px;
+    }
+    h1 {
+      width: 250px;
+      text-align: center;
+      font-size: 24px;
+    }
+    p {
+      text-align: center;
+      width: 340px;
+      line-height: 24px;
+    }
 
-  img {
-    width: 100px;
-    height: 98px;
+
+    .card-button {
+      flex-direction: column;
+    }
+    
+     .container-mac {
+       h2 {
+        margin-top: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 280px;
+       }
+       p {
+        line-height: 26px;
+        text-align: center;
+      }
+    }
+    
+     .container-info {
+        flex-direction: column;
+       
+      img {
+        margin-right: auto;
+        margin-left: auto;
+        width: 280px;
+        height: 215px;
+      }
+  
+      .card-info {
+        justify-content: center;
+        h4 {
+          text-align: center;
+          font-size: 22px;
+          margin-bottom: 8px;
+        }
+        p {
+          font-size: 15px;
+          text-align: center;
+        }  
+      }
+    } 
+
+    .card-devices {
+      p {
+        width: 320px;
+      }
+      
+       img {
+        width: 250px;
+        height: 140px;
+      }
+    }
+
+    p {
+      width: 250px;
+      margin-bottom: 60px;
+    }
+
+
+    .box-container {
+      flex-direction: column;
+
+      .boxers-card, .boxers-card2, .boxers-card3 {
+        .text1 {
+          text-align: center;
+        }
+
+        img {
+          width: 45px;
+          height: 35px;
+        } 
+      } 
+    }
+
+
+      .cards-images {
+        flex-direction: column;
+        gap: 0;
+         
+        img {
+          font-size: 30px;
+      }
+    }
   }
-  h1 {
-    width: 250px;
-    text-align: center;
-    font-size: 24px;
-    padding: 8px 20px;
-  }
-  p {
-    text-align: center;
-    width: 340px;
-    line-height: 24px;
-  }
- }
-
- .card-button {
-  flex-direction: column;
-  justify-content: center;
- }
+}  
 
 
-
- .container-mac {
-   h2 {
-    margin-top: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 280px;
-   }
-   p {
-    line-height: 26px;
-    text-align: center;
-   }
- }
-
- .container-info {
-    flex-direction: column;
-   
-  img {
-    margin-right: auto;
-    margin-left: auto;
-    width: 280px;
-    height: 215px;
-  }
-
-  h4 {
-    text-align: center;
-    font-size: 22px;
-    margin: 20px 0;
-  }
-
-  p {
-    text-align: center;
-    font-size: 18px;
-    padding: 0 25px;
-    margin-top: 10px;
-  }
- }
-
-}
+ 
 
