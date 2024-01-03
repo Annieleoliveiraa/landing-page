@@ -239,4 +239,43 @@ html {
 .card-footer .card-logos .fa-brands:hover {
   filter: hue-rotate(10deg);
   color: hsl(171, 66%, 44%);
+}
+
+@media only screen and (max-width: 400px) {
+  html, body {
+    background-image: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+  }
+  .container {
+    width: 80%;
+  }
+  .container img {
+    width: 100px;
+    height: 98px;
+  }
+  .container h1 {
+    width: 250px;
+    text-align: center;
+    font-size: 24px;
+    padding: 8px 20px;
+  }
+  .container p {
+    text-align: center;
+    width: 340px;
+    line-height: 24px;
+  }
+  .card-button {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-mac h2 {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 280px;
+  }
+  .container-mac p {
+    line-height: 26px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
