@@ -15,21 +15,26 @@
    margin: auto;
    padding: 20px 40px;
 
-   img {
-     width: 80px;
-     height: 80px;
-     padding: 20px 20px;
-   }
+   .card-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-   h1 {
-     color: $blackgray-color;
-   }
-
-   p {
-     color: $gray-color;
-     width: 580px;
-     text-align: center;
-     margin-top: -8px;
+    img {
+      width: 80px;
+      height: 80px;
+    }
+ 
+    h1 {
+      color: $blackgray-color;
+    }
+ 
+    p {
+      color: $gray-color;
+      width: 580px;
+      text-align: center;
+      margin-top: -8px;
+    }
    }
 
    .card-button {
@@ -82,8 +87,10 @@
    }
 
    p {
+     width: 640px;
      text-align: center;
      margin: auto;
+     color: $gray-color;
    }
 
    img {
@@ -108,6 +115,10 @@
  }
 
  .card-devices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
    p {
      margin-bottom: 60px;
    }
@@ -115,17 +126,72 @@
    img {
      width: 500px;
      height: 300px;
-     padding-left: 170px;
    }
  }
 
  .box-container {
    display: flex;
-   gap: 50px;
+   gap: 30px;
  }
 
- .boxers-card,
- .boxers-card2,
+ .boxers-card {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    width: 44px;
+    height: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+  }
+
+  p {
+    width: 330px;
+    margin-top: -5px;
+    line-height: 25px;
+  }
+
+  h5 {
+    text-align: center;
+    font-size: 18px;
+    color: $blackgray-color;
+    margin-top: 5px;
+  }
+ }
+
+ .boxers-card2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    width: 44px;
+    height: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+  }
+
+  p {
+    width: 350px;
+    margin-top: -5px;
+    line-height: 25px;
+  }
+
+  h5 {
+    text-align: center;
+    font-size: 18px;
+    color: $blackgray-color;
+    margin-top: 5px;
+  }
+ }
+
+
+
  .boxers-card3 {
    margin-top: 50px;
    display: flex;
@@ -133,14 +199,16 @@
    justify-content: center;
 
    img {
-     width: 50px;
-     height: 38px;
+     width: 55px;
+     height: 35px;
      margin-right: auto;
      margin-left: auto;
+     margin-bottom: 25px;
    }
 
    p {
-     margin-bottom: 40px;
+     margin-top: 10px;
+     line-height: 25px;
    }
 
    h5 {
@@ -161,7 +229,7 @@
  .cards-images {
    display: flex;
    justify-content: center;
-   gap: 30px;
+   gap: 50px;
 
    img {
      width: 120px;
@@ -175,6 +243,12 @@
      color: $blackgray-color;
      text-align: center;
      margin: 45px 45px;
+   }
+   p {
+    width: 600px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: $gray-color;
    }
 
    .card-button {
@@ -281,15 +355,17 @@
 @media only screen and (max-width: 400px) {
   .container {
     width: 80%;
+    padding: 10px 10px;
 
     .card-head {
        display: flex;
        flex-direction: column;
        align-items: center;
+
       img {
         width: 100px;
         height: 98px;
-        
+        margin: 20px 20px;
       }
       h1 {
         width: 250px;
@@ -356,6 +432,10 @@
     } 
 
     .card-devices {
+      
+      h2 {
+        margin-top: -10px;
+      }
       p {
         width: 320px;
       }
@@ -441,7 +521,7 @@
           width: 250px;
         }
       p {
-        width: 290px;
+        width: 305px;
         margin-left: auto;
         margin-right: auto;
         margin-top: -20px;

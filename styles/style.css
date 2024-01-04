@@ -12,15 +12,19 @@ html {
   margin: auto;
   padding: 20px 40px;
 }
-.container img {
+.container .card-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .card-head img {
   width: 80px;
   height: 80px;
-  padding: 20px 20px;
 }
-.container h1 {
+.container .card-head h1 {
   color: hsl(210, 10%, 33%);
 }
-.container p {
+.container .card-head p {
   color: hsl(201, 11%, 66%);
   width: 580px;
   text-align: center;
@@ -68,8 +72,10 @@ html {
   margin-top: 60px;
 }
 .container-mac p {
+  width: 640px;
   text-align: center;
   margin: auto;
+  color: hsl(201, 11%, 66%);
 }
 .container-mac img {
   width: 350px;
@@ -88,51 +94,97 @@ html {
   text-align: left;
 }
 
+.card-devices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .card-devices p {
   margin-bottom: 60px;
 }
 .card-devices img {
   width: 500px;
   height: 300px;
-  padding-left: 170px;
 }
 
 .box-container {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 
-.boxers-card,
-.boxers-card2,
+.boxers-card {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.boxers-card img {
+  width: 44px;
+  height: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+.boxers-card p {
+  width: 330px;
+  margin-top: -5px;
+  line-height: 25px;
+}
+.boxers-card h5 {
+  text-align: center;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  margin-top: 5px;
+}
+
+.boxers-card2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.boxers-card2 img {
+  width: 44px;
+  height: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+.boxers-card2 p {
+  width: 350px;
+  margin-top: -5px;
+  line-height: 25px;
+}
+.boxers-card2 h5 {
+  text-align: center;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  margin-top: 5px;
+}
+
 .boxers-card3 {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.boxers-card img,
-.boxers-card2 img,
 .boxers-card3 img {
-  width: 50px;
-  height: 38px;
+  width: 55px;
+  height: 35px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 25px;
 }
-.boxers-card p,
-.boxers-card2 p,
 .boxers-card3 p {
-  margin-bottom: 40px;
+  margin-top: 10px;
+  line-height: 25px;
 }
-.boxers-card h5,
-.boxers-card2 h5,
 .boxers-card3 h5 {
   text-align: center;
   font-size: 18px;
   color: hsl(210, 10%, 33%);
   margin-top: 5px;
 }
-.boxers-card .text1,
-.boxers-card2 .text1,
 .boxers-card3 .text1 {
   width: 290px;
   margin-top: -10px;
@@ -143,7 +195,7 @@ html {
 .cards-images {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
 }
 .cards-images img {
   width: 120px;
@@ -155,6 +207,12 @@ html {
   color: hsl(210, 10%, 33%);
   text-align: center;
   margin: 45px 45px;
+}
+.container-clipboard p {
+  width: 600px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
 }
 .container-clipboard .card-button {
   display: flex;
@@ -244,6 +302,7 @@ html {
 @media only screen and (max-width: 400px) {
   .container {
     width: 80%;
+    padding: 10px 10px;
   }
   .container .card-head {
     display: flex;
@@ -253,6 +312,7 @@ html {
   .container .card-head img {
     width: 100px;
     height: 98px;
+    margin: 20px 20px;
   }
   .container .card-head h1 {
     width: 250px;
@@ -304,6 +364,9 @@ html {
   .container .container-info .card-info p {
     font-size: 15px;
     text-align: center;
+  }
+  .container .card-devices h2 {
+    margin-top: -10px;
   }
   .container .card-devices p {
     width: 320px;
@@ -370,7 +433,7 @@ html {
     width: 250px;
   }
   .container .container-clipboard p {
-    width: 290px;
+    width: 305px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -20px;
