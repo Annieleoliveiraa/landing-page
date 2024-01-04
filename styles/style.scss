@@ -546,7 +546,53 @@
       }
     }
 
-    
+    .card-footer {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+
+       img {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 0;
+       }
+
+       .box-info {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+
+        .box-1 {
+          margin-top: -20px;
+          span {
+            text-align: center;
+            margin: 5px 0;
+          }
+        }
+        
+        .box-2 {
+          margin-top: -2em;
+          span {
+            text-align: center;
+            margin: 5px 0;
+          }
+        }
+        
+        
+        .box-3 {
+          margin-top: -2em;
+          span {
+            text-align: center;
+            margin: 5px 0;
+          }
+        }
+       }
+    }
+
+    .card-logos {
+     padding: 25px 0;
+    }
   }
 }  
 

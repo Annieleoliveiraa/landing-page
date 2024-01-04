@@ -451,4 +451,44 @@ html {
     width: 320px;
     font-size: 16px;
   }
+  .container .card-footer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .container .card-footer img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+  }
+  .container .card-footer .box-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container .card-footer .box-info .box-1 {
+    margin-top: -20px;
+  }
+  .container .card-footer .box-info .box-1 span {
+    text-align: center;
+    margin: 5px 0;
+  }
+  .container .card-footer .box-info .box-2 {
+    margin-top: -2em;
+  }
+  .container .card-footer .box-info .box-2 span {
+    text-align: center;
+    margin: 5px 0;
+  }
+  .container .card-footer .box-info .box-3 {
+    margin-top: -2em;
+  }
+  .container .card-footer .box-info .box-3 span {
+    text-align: center;
+    margin: 5px 0;
+  }
+  .container .card-logos {
+    padding: 25px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
